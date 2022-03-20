@@ -14,6 +14,9 @@ html {
 body {
   background-color: #0d1117;
   font-family: 'Poppins', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 50px;
 }
 
 .sidenav {
@@ -60,15 +63,15 @@ body {
 #about {
   margin-left: 80px;
   /* Same as the width of the sidebar */
-  padding: 20px 10px 10px 10px;
   color: #f1f1f1;
+  width: 700px;
 }
 
 #me {
   margin-left: 80px;
   /* Same as the width of the sidebar */
-  padding: 20px 10px 10px 10px;
   color: #f1f1f1;
+  width: 500px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -79,5 +82,22 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+.content {
+  font-size: 20px;
+  min-height: 500px;
+  max-width: 500px;
+}
+
+img {
+  height: 650px;
+  width: 400px;
+  right: 0;
+  top: 0;
+  padding: 90px;
+  margin-bottom: 30px;
+  margin: auto;
+  position: fixed;
 }
 /*# sourceMappingURL=styles.css.map */
